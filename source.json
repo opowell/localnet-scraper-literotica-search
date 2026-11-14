@@ -1,0 +1,13 @@
+{
+  "scrapers": [
+    {
+      "name": "Literotica Search",
+      "urlPattern": "search.literotica.com",
+      "searchUrl": "https://search.literotica.com/?query={term}"
+    }
+  ],
+  "file": "literotica-search.js",
+  "scrapeGaps": {
+    "literotica.com": 10000
+  }
+}
